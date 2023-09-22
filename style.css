@@ -5,15 +5,45 @@ body{
 
 /* common */
 body{
-  width:600px;
+  width:640px;
+  margin: 0;
+}
+
+.container{
+  margin: 0 16px;
+}
+
+/* header */
+
+header{
+background:pink;
+background-image:
+url(header.jpg);
+background-size: cover;
+background-position: center;
+height: 160px;
+}
+
+section h4{
+  margin: 0 16px;
 }
 
 h1{
   border-bottom:16px solid orange;
+  text-align: center;
+  margin: 0;
+  line-height: 160px;
+  color: white;
 }
 
-h4{
+span{
+  color: rgb(73, 194, 241);
+  background: white;
+}
+
+section h4{
 font-weight: normal;
+margin-top: 32px;
 }
 
 main h2{
@@ -25,12 +55,46 @@ main p{
   padding: 16px;
 }
 
+/* aside */
+img{
+  border-radius: 50%;
+}
+
 aside h2{
+  margin-top: 48px;
   border-bottom: 8px solid pink;
+}
+
+aside h3{
+  font-weight: bold;
+  display: inline-block;
+  font-size: 26px;
 }
 
 aside p{
   border: 2px dashed pink;
   padding: 16px;
   line-height: 2;
+}
+
+/* footer */
+
+textarea{
+  width: 240px;
+  height: 80px;
+  margin-top: 32px; 
+}
+
+h2{
+  margin-top: 48px;
+  border-bottom: 8px solid orange;
+}
+
+footer p{
+  color: red;
+}
+
+.radio{
+  margin: 48px 0;
+
 }
