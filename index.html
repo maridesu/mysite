@@ -7,12 +7,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <h1>真理のほのぼの劇場</h1>
-  <h4>日々の小話を投稿するゆるいサイトです。プログラミングの勉強のために作成しました。
-    <br>なんのお構いもできませんが、ゆっくり見ていってね～😊</h4>
+<header>
+  <h1><span> 真理のほのぼの劇場 </span></h1>
+</header>
+<section>
+  <h4>日々の小話を投稿するゆるいサイトです。
+  <br>プログラミングの勉強のために作成しました。
+  <br>なんのお構いもできませんが、ゆっくり見ていってね～😊</h4>
+</section>
+  
 
     <!-- 社説 -->
+<div class="container">
   <main>
   <h2>本日の社説</h2>
   <p>今朝は4:30に起床。バイトがないと嬉しくて早起きしてしまう。バイトがある日はなかなか起きれず、遅いと6:30…。バイトがない日の早起きが3度の飯より好きだ（2度だけど）。ちなみに極端に早いのはダメだ。先日は20:30に就寝し、2:30に起床した。6時間は睡眠しているが、外がまだ真っ暗なので、脳も完全にまだ夜モード…。早起きはほどほどの時間にしておくべきだと、勉強になった。</p>
@@ -21,7 +27,8 @@
   <!-- ゲストトーク -->
 <aside>
 <h2>本日の天国からのゲスト</h2>
-<h4>杉山チャッピーさん</h4>
+<img src="チャッピー.JPG" alt="犬の写真" width="240" height="180">
+<h3>杉山チャッピーさん</h3>
 <p>👩「今日は遠いところからお越しくださり、ありがとうございます。天国暮らしは慣れました？」
 <br>🐕「はい、もう5年経つので、割と皆顔なじみになりました。」
 <br>👩「普段は何をして過ごされていますか？」
@@ -31,5 +38,37 @@
 <br>🐕「耳のふさふさな毛を抜いてみたり、彼女の好きなゆづちゃんの使用済みおむつにワサビを混ぜたりしています。」
 <br>👩「本日のテンゲスさん（天国からのゲスト）チャッピーさんでした。」</p>
 </aside>
+
+<footer>
+<h2>最後に感想をお願いします</h2>
+<p>※テストなので入力不要です</p>
+<form>
+  <div class="form-1">
+    <label>
+      お名前
+    <input type="text">
+  </label>
+  </div>
+  <div class="form-2">
+    <label>
+      内容 
+    <textarea></textarea>
+    </label>
+
+  <div class="radio">
+<fieldset>
+  <legend>感想</legend>
+  <label><input type="radio" name="fun">面白い！</label>
+  <label><input type="radio" name="fun">才能ある！</label>
+  <label><input type="radio" name="fun">チャッピーに会いたい！</label>
+  <label><input type="radio" name="fun">続編求む！</label>
+</fieldset>
+  </div>
+  </div>
+</div>
+
+
+</footer>
+</form>
 </body>
 </html>
